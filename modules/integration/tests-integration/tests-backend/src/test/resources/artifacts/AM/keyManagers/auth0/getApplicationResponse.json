@@ -1,0 +1,42 @@
+{
+  "tenant":"tenant1",
+  "global":false,
+  "is_token_endpoint_ip_header_trusted":false,
+  "name":"app1",
+  "callbacks":[
+
+  ],
+  "is_first_party":true,
+  "sso_disabled":false,
+  "cross_origin_auth":false,
+  "oidc_conformant":false,
+  "refresh_token":{
+    "expiration_type":"non-expiring",
+    "leeway":0,
+    "infinite_token_lifetime":true,
+    "infinite_idle_token_lifetime":true,
+    "token_lifetime":31557600,
+    "idle_token_lifetime":2592000,
+    "rotation_type":"non-rotating"
+  },
+  "signing_keys":[
+    {
+      "cert":"-----BEGIN CERTIFICATE-----\r\nMIIDDTCCAfWgAwIBAgIJY9zEiSkTAb/kMA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNV\r\nBAMTGWRldi1jaHgxYnM1bC51cy5hdXRoMC5jb20wHhcNMjExMTEyMTAzMjAwWhcN\r\nMzUwNzIyMTAzMjAwWjAkMSIwIAYDVQQDExlkZXYtY2h4MWJzNWwudXMuYXV0aDAu\r\nY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtRmM8RFZ85H3OTio\r\nJnsj18TlnAyBYx8PrZ1gjlIEntZiuJllhFVzQAh7S5V+WXHLOF+zKxp8ne1N/qxe\r\nowhyo8L18zxpTJZuF7JYb4YpESBz7+YeLcraBEuE0L595xpVsb44cdkyMoOiW5PK\r\nHjHVcL3XVnTIGM40lrhHTA4ur73D1QDDt6oA/C8pGjmYMLzkgwznKQ+ApbEg0OIl\r\nko7sOv2RwMc80VoDw1FX7ZyC/vED2JWjyZI/4gaFlsnHga5G06asf/NY9IgqXVkF\r\noL6Nl09jWVDE9aS6u2VsrPnkSolKhlP/jVPWndpKYk9P/M8ZKBt4/Ff84weiMEd+\r\nxbqs5wIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBRMMNvRL3z5\r\ntHC+e69Yx4oY2RxhRzAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEB\r\nAEd302AhikrEdnIUXe/E2EA9HFPjYy4tZvHK1pt4DT+nRKHVxcK2b9cA/VCVD7sW\r\noX2eajULD6aMOHTOGtpLuKLTsgCIUHY7IaD7QyFh/+6DDFFFYBv73BCCUOCPLSj4\r\n3CbhVELXFWhv9l//vbXUZeemy4XXyy+LgtqPBDmc+IhvrPuBgk8kzwfAg4oB8RGg\r\nmZQXbGCQ5uHJEo/GE0JOEV+VeI8WG13ms9I3khlvqVPJe3lP2nc/Sw+5fOadeDrE\r\nEx9ZWdW0Efj0VqUx5RRsQqbl3glM5C86Y5IE1LYOpfI4qJw8PxNWpUkyaZ47M6gj\r\nwTzEvIqdpfAlCjeZlVI0nJE=\r\n-----END CERTIFICATE-----",
+      "pkcs7":"-----BEGIN PKCS7-----\r\nMIIDPAYJKoZIhvcNAQcCoIIDLTCCAykCAQExADALBgkqhkiG9w0BBwGgggMRMIID\r\nDTCCAfWgAwIBAgIJY9zEiSkTAb/kMA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNVBAMT\r\nGWRldi1jaHgxYnM1bC51cy5hdXRoMC5jb20wHhcNMjExMTEyMTAzMjAwWhcNMzUw\r\nNzIyMTAzMjAwWjAkMSIwIAYDVQQDExlkZXYtY2h4MWJzNWwudXMuYXV0aDAuY29t\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtRmM8RFZ85H3OTioJnsj\r\n18TlnAyBYx8PrZ1gjlIEntZiuJllhFVzQAh7S5V+WXHLOF+zKxp8ne1N/qxeowhy\r\no8L18zxpTJZuF7JYb4YpESBz7+YeLcraBEuE0L595xpVsb44cdkyMoOiW5PKHjHV\r\ncL3XVnTIGM40lrhHTA4ur73D1QDDt6oA/C8pGjmYMLzkgwznKQ+ApbEg0OIlko7s\r\nOv2RwMc80VoDw1FX7ZyC/vED2JWjyZI/4gaFlsnHga5G06asf/NY9IgqXVkFoL6N\r\nl09jWVDE9aS6u2VsrPnkSolKhlP/jVPWndpKYk9P/M8ZKBt4/Ff84weiMEd+xbqs\r\n5wIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBRMMNvRL3z5tHC+\r\ne69Yx4oY2RxhRzAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBAEd3\r\n02AhikrEdnIUXe/E2EA9HFPjYy4tZvHK1pt4DT+nRKHVxcK2b9cA/VCVD7sWoX2e\r\najULD6aMOHTOGtpLuKLTsgCIUHY7IaD7QyFh/+6DDFFFYBv73BCCUOCPLSj43Cbh\r\nVELXFWhv9l//vbXUZeemy4XXyy+LgtqPBDmc+IhvrPuBgk8kzwfAg4oB8RGgmZQX\r\nbGCQ5uHJEo/GE0JOEV+VeI8WG13ms9I3khlvqVPJe3lP2nc/Sw+5fOadeDrEEx9Z\r\nWdW0Efj0VqUx5RRsQqbl3glM5C86Y5IE1LYOpfI4qJw8PxNWpUkyaZ47M6gjwTzE\r\nvIqdpfAlCjeZlVI0nJExAA==\r\n-----END PKCS7-----\r\n",
+      "subject":"deprecated"
+    }
+  ],
+  "client_id":"client1",
+  "callback_url_template":false,
+  "client_secret":"<client_secret>",
+  "jwt_configuration":{
+    "lifetime_in_seconds":36000,
+    "secret_encoded":false
+  },
+  "token_endpoint_auth_method":"client_secret_basic",
+  "app_type":"regular_web",
+  "grant_types":[
+    "client_credentials"
+  ],
+  "custom_login_page_on":true
+}

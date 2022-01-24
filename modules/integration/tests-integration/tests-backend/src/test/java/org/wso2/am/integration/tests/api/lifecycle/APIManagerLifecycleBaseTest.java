@@ -87,7 +87,7 @@ public class APIManagerLifecycleBaseTest extends APIMIntegrationBaseTest {
     protected static final int THROTTLING_UNIT_TIME = 60000;
     protected static final int THROTTLING_ADDITIONAL_WAIT_TIME = 5000;
     protected static final String API_NAME = "APITest";
-    protected static final String API_CONTEXT = "{version}/api";
+    protected static final String API_CONTEXT = "testapi";
     protected static final String API_TAGS = "testTag1, testTag2, testTag3";
     protected static final String API_VERSION_1_0_0 = "1.0.0";
     protected static final String API_DESCRIPTION = "This is test API create by API manager integration test";

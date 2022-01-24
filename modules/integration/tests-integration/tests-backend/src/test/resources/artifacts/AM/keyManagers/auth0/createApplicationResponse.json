@@ -1,0 +1,44 @@
+{
+  "tenant":"tenant1",
+  "global":false,
+  "is_token_endpoint_ip_header_trusted":false,
+  "name":"app1",
+  "callbacks":[
+
+  ],
+  "is_first_party":true,
+  "sso_disabled":false,
+  "cross_origin_auth":false,
+  "oidc_conformant":false,
+  "refresh_token":{
+    "expiration_type":"non-expiring",
+    "leeway":0,
+    "infinite_token_lifetime":true,
+    "infinite_idle_token_lifetime":true,
+    "token_lifetime":31557600,
+    "idle_token_lifetime":2592000,
+    "rotation_type":"non-rotating"
+  },
+  "encrypted":true,
+  "signing_keys":[
+    {
+      "cert":"-----BEGIN CERTIFICATE-----\r\nMIIDDTCCAfWgAwIBAgIJOOEVSsp2j4DvMA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNV\r\nBAMTGWRldi1jaHgxYnM1bC51cy5hdXRoMC5jb20wHhcNMjExMTEyMTAzMjAwWhcN\r\nMzUwNzIyMTAzMjAwWjAkMSIwIAYDVQQDExlkZXYtY2h4MWJzNWwudXMuYXV0aDAu\r\nY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAol40swdbtul9V63q\r\nX2GryyQALmaQLlDI2PYIW6x5S529o/ozXl3jBx0tBavbEQJZHIlx+fR6JnTtvBmO\r\neNCKexSIW1hFDMSr8iqGJTQ+JH7PHB2KM4dS9jVcrKPFHubRem5nD2zVeg/Vs9l2\r\nGbH59xMT+LIqNjSPYlb/stigfxB9hklbhA+WQ6j4bhwUINuFyVuZHWjk43EqBb0U\r\nKJTAEGZxO8JjwDfyO+S3LhkWqnK+drKzVb1LSPO7efhqkLQCY4NHI4YgzWADByuJ\r\nSGuv0TMA0tKz2nPXuWLQeyi3GQIO8VK+GrocHWNNrSgm3uo3ZEMUg8/+rTzTEkNx\r\n9McdDwIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR6yrLcuegl\r\nTRuLAldMRAOIswJWZjAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEB\r\nAJ4oKjP/k1MzNdUGb26LFwYmK1DutsRwqMTnSPFjbg50F4lptCBMDiVUCqFnvzPp\r\nAgaGHSEqQz0f6KuGjyC4iNKvlVYuykQ1B6Al4d3t0JqhZMBngKdbDZz/jjb1qoeD\r\ns1MvLMr4FYLxDSTm8T6TdYdYzNA5/fYXiz2GaoGItAe/1HkdAE1PWO9bzUxarE3I\r\nj4vi1O06C/vFaZOamFvVbHe1sACNTYa1+CpPek20Yoc8YX2Vd53o6NSKugpytMuj\r\nOCrnt1Qw6UuKXLw4IH/yreQ1YpaW2GIY5AkzeGby4Utio1wHBwzxeBiHRTAs5cC7\r\nGAI8f4D5DbHprsuvmMJ5xUk=\r\n-----END CERTIFICATE-----\r\n",
+      "key":"-----BEGIN RSA PRIVATE KEY-----\r\nMIIEpQIBAAKCAQEAw0961h/tdabzBRy+Xs2SPObhf1XYeTYyxK9yeYxc8K5d6d3n\r\nWA0ASfNCWd0CnHOMJi9N+b8MZ0aceoTo7yj5PzheYECwbiKj+y6ZNtkl93sfQp5H\r\nyUBuPwS+DjBMf1vgBzV2ZTeH+1fhUDcW8GnyEV5e2ptdR/iH3koQls7bhb3vRSDs\r\n4F2r1h/ZMhXfdbZIJcHHoBDs3iZE0tCQtm7ewygiTQtvdyWyYMdcLwBqLY/GToWz\r\nP6u1PTWXDRnjoLjLRbmu6hiDPH3J3Q3C6uuZyrcDT2iapnEi6gufpB4k8aTDGtMi\r\nwrW95hVbBBeOG8VxqxalhWOAg5sP01cgxCLIHwIDAQABAoIBAB/1jYAkUVMDMpkP\r\njwcsVFWq4hNYFMgg2kXc/7psAXlQzwVJzmVWG0n+iEj0JU08ix5kdzn6zSjJISnb\r\nPdKEveRecPMHIteiy3p6sY+MEO5iM0dPZyfDZ0bgm8jullXwzsPfN7RwVcwHIVNi\r\n8Fn+vCGjc5oJ+kWgoXr6W6SRzNIhbRoJm43LgbN79ApihpFEeIGBypdEAfvDFi2y\r\n0NWcFjQ76sngAzMw6lnXOYNMvfo94kyYlh1kv7iERsCes4gZac8ItCpfRlubO2TN\r\nXSEmodbO4Pb32gJhUPp0h7O4jd9uDCYKXPNJwHlcl950Zv5KcArYO46VSIHPAIeP\r\nBUedBUECgYEA6Y2STFaPB9uLdJb8tbkY0e4u7J+USlSfjpyzH14mqBNQKNU/kYwD\r\nZmjBeZOq7sLXVyRVCuW7XFxqF4ZNA/pGQtLJmP4XpHGFwnCYSMgHdZ4wETb0Lh35\r\n7+zG7piOpVEa9akCVz0JBiKFUQGorbYU4vhoClbjMOvSeaEg6oJacZcCgYEA1hT5\r\nV+McF6MrduIstw/nCiyiIYqYGvOWImEPcPPnTIuy8u6cSe7a7mvoA2TaRhBkre+W\r\nei8XqT9sH9PSykovQ8iHi/cwT02Oij1dp5+aQjfHBdEzwY75jc19KxI9DjBwUU9I\r\n8QJQ3YCZ2EicAdlKPEMlnu8T9IUs4zFc9aUhHrkCgYEApeOu5JYe5f/lIB0WxqUA\r\noixCHESE+f79jjhzanZfksaVC0vc6S7AQ39o3UgsA4dVmUnvNdxTppjlqmv0TDz6\r\npwA9vXPNqzoPPjrnj9q0obCIh9G2wwL7wpU1/8dQms/vDErNpNVvkXH3q8A35ZsN\r\nXuH+VEm++cKnL0lpreiFAWUCgYEAzZUQqXSAKrbX629hT16nGR8phxpH3UHkABnD\r\nMU4X5WsWKrI3RcxpU6IuCOxVrAjcFihJEgadKzurgpjxCK/a2bX9bMyxCMbKxjgN\r\n8wWSplpX9l8i25KIVcNqmu0F0tVzVrHTsxXtP/jaRFfd8OyQnHRC8XBXcm5dX8Os\r\nqHyt5IkCgYEAgmKBUhEf1wbosp2BeZlFBjIddeqp8/7ADPqdunqK8QliCVNF3NtB\r\nNyXfZeRsQ8m/RhFQkh1Nc7kpEEbPFnHaXLrLMaHoWw1Ewtq+PnYxL/Da3XE/LOjN\r\n4urmOVE3kyQkaKPzRWXmHKY30zLVxqKvMTmMT1BfPaGtGGdqJGjoKSQ=\r\n-----END RSA PRIVATE KEY-----\r\n",
+      "pkcs7":"-----BEGIN PKCS7-----\r\nMIIDPAYJKoZIhvcNAQcCoIIDLTCCAykCAQExADALBgkqhkiG9w0BBwGgggMRMIID\r\nDTCCAfWgAwIBAgIJOOEVSsp2j4DvMA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNVBAMT\r\nGWRldi1jaHgxYnM1bC51cy5hdXRoMC5jb20wHhcNMjExMTEyMTAzMjAwWhcNMzUw\r\nNzIyMTAzMjAwWjAkMSIwIAYDVQQDExlkZXYtY2h4MWJzNWwudXMuYXV0aDAuY29t\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAol40swdbtul9V63qX2Gr\r\nyyQALmaQLlDI2PYIW6x5S529o/ozXl3jBx0tBavbEQJZHIlx+fR6JnTtvBmOeNCK\r\nexSIW1hFDMSr8iqGJTQ+JH7PHB2KM4dS9jVcrKPFHubRem5nD2zVeg/Vs9l2GbH5\r\n9xMT+LIqNjSPYlb/stigfxB9hklbhA+WQ6j4bhwUINuFyVuZHWjk43EqBb0UKJTA\r\nEGZxO8JjwDfyO+S3LhkWqnK+drKzVb1LSPO7efhqkLQCY4NHI4YgzWADByuJSGuv\r\n0TMA0tKz2nPXuWLQeyi3GQIO8VK+GrocHWNNrSgm3uo3ZEMUg8/+rTzTEkNx9Mcd\r\nDwIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR6yrLcueglTRuL\r\nAldMRAOIswJWZjAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBAJ4o\r\nKjP/k1MzNdUGb26LFwYmK1DutsRwqMTnSPFjbg50F4lptCBMDiVUCqFnvzPpAgaG\r\nHSEqQz0f6KuGjyC4iNKvlVYuykQ1B6Al4d3t0JqhZMBngKdbDZz/jjb1qoeDs1Mv\r\nLMr4FYLxDSTm8T6TdYdYzNA5/fYXiz2GaoGItAe/1HkdAE1PWO9bzUxarE3Ij4vi\r\n1O06C/vFaZOamFvVbHe1sACNTYa1+CpPek20Yoc8YX2Vd53o6NSKugpytMujOCrn\r\nt1Qw6UuKXLw4IH/yreQ1YpaW2GIY5AkzeGby4Utio1wHBwzxeBiHRTAs5cC7GAI8\r\nf4D5DbHprsuvmMJ5xUkxAA==\r\n-----END PKCS7-----\r\n",
+      "subject":"/CN=dev-chx1bs5l.us.auth0.com"
+    }
+  ],
+  "client_id":"client1",
+  "callback_url_template":false,
+  "client_secret":"<client_secret>",
+  "jwt_configuration":{
+    "lifetime_in_seconds":36000,
+    "secret_encoded":false
+  },
+  "token_endpoint_auth_method":"client_secret_basic",
+  "app_type":"regular_web",
+  "grant_types":[
+    "client_credentials"
+  ],
+  "custom_login_page_on":true
+}

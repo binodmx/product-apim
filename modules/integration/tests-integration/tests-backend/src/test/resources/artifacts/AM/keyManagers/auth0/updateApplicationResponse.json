@@ -1,0 +1,42 @@
+{
+  "tenant":"tenant1",
+  "global":false,
+  "is_token_endpoint_ip_header_trusted":false,
+  "name":"app1",
+  "callbacks":[
+
+  ],
+  "is_first_party":true,
+  "sso_disabled":false,
+  "cross_origin_auth":false,
+  "oidc_conformant":false,
+  "refresh_token":{
+    "expiration_type":"non-expiring",
+    "leeway":0,
+    "infinite_token_lifetime":true,
+    "infinite_idle_token_lifetime":true,
+    "token_lifetime":31557600,
+    "idle_token_lifetime":2592000,
+    "rotation_type":"non-rotating"
+  },
+  "signing_keys":[
+    {
+      "cert":"-----BEGIN CERTIFICATE-----\r\nMIIDDTCCAfWgAwIBAgIJOOEVSsp2j4DvMA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNV\r\nBAMTGWRldi1jaHgxYnM1bC51cy5hdXRoMC5jb20wHhcNMjExMTEyMTAzMjAwWhcN\r\nMzUwNzIyMTAzMjAwWjAkMSIwIAYDVQQDExlkZXYtY2h4MWJzNWwudXMuYXV0aDAu\r\nY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAol40swdbtul9V63q\r\nX2GryyQALmaQLlDI2PYIW6x5S529o/ozXl3jBx0tBavbEQJZHIlx+fR6JnTtvBmO\r\neNCKexSIW1hFDMSr8iqGJTQ+JH7PHB2KM4dS9jVcrKPFHubRem5nD2zVeg/Vs9l2\r\nGbH59xMT+LIqNjSPYlb/stigfxB9hklbhA+WQ6j4bhwUINuFyVuZHWjk43EqBb0U\r\nKJTAEGZxO8JjwDfyO+S3LhkWqnK+drKzVb1LSPO7efhqkLQCY4NHI4YgzWADByuJ\r\nSGuv0TMA0tKz2nPXuWLQeyi3GQIO8VK+GrocHWNNrSgm3uo3ZEMUg8/+rTzTEkNx\r\n9McdDwIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR6yrLcuegl\r\nTRuLAldMRAOIswJWZjAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEB\r\nAJ4oKjP/k1MzNdUGb26LFwYmK1DutsRwqMTnSPFjbg50F4lptCBMDiVUCqFnvzPp\r\nAgaGHSEqQz0f6KuGjyC4iNKvlVYuykQ1B6Al4d3t0JqhZMBngKdbDZz/jjb1qoeD\r\ns1MvLMr4FYLxDSTm8T6TdYdYzNA5/fYXiz2GaoGItAe/1HkdAE1PWO9bzUxarE3I\r\nj4vi1O06C/vFaZOamFvVbHe1sACNTYa1+CpPek20Yoc8YX2Vd53o6NSKugpytMuj\r\nOCrnt1Qw6UuKXLw4IH/yreQ1YpaW2GIY5AkzeGby4Utio1wHBwzxeBiHRTAs5cC7\r\nGAI8f4D5DbHprsuvmMJ5xUk=\r\n-----END CERTIFICATE-----\r\n",
+      "pkcs7":"-----BEGIN PKCS7-----\r\nMIIDPAYJKoZIhvcNAQcCoIIDLTCCAykCAQExADALBgkqhkiG9w0BBwGgggMRMIID\r\nDTCCAfWgAwIBAgIJOOEVSsp2j4DvMA0GCSqGSIb3DQEBCwUAMCQxIjAgBgNVBAMT\r\nGWRldi1jaHgxYnM1bC51cy5hdXRoMC5jb20wHhcNMjExMTEyMTAzMjAwWhcNMzUw\r\nNzIyMTAzMjAwWjAkMSIwIAYDVQQDExlkZXYtY2h4MWJzNWwudXMuYXV0aDAuY29t\r\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAol40swdbtul9V63qX2Gr\r\nyyQALmaQLlDI2PYIW6x5S529o/ozXl3jBx0tBavbEQJZHIlx+fR6JnTtvBmOeNCK\r\nexSIW1hFDMSr8iqGJTQ+JH7PHB2KM4dS9jVcrKPFHubRem5nD2zVeg/Vs9l2GbH5\r\n9xMT+LIqNjSPYlb/stigfxB9hklbhA+WQ6j4bhwUINuFyVuZHWjk43EqBb0UKJTA\r\nEGZxO8JjwDfyO+S3LhkWqnK+drKzVb1LSPO7efhqkLQCY4NHI4YgzWADByuJSGuv\r\n0TMA0tKz2nPXuWLQeyi3GQIO8VK+GrocHWNNrSgm3uo3ZEMUg8/+rTzTEkNx9Mcd\r\nDwIDAQABo0IwQDAPBgNVHRMBAf8EBTADAQH/MB0GA1UdDgQWBBR6yrLcueglTRuL\r\nAldMRAOIswJWZjAOBgNVHQ8BAf8EBAMCAoQwDQYJKoZIhvcNAQELBQADggEBAJ4o\r\nKjP/k1MzNdUGb26LFwYmK1DutsRwqMTnSPFjbg50F4lptCBMDiVUCqFnvzPpAgaG\r\nHSEqQz0f6KuGjyC4iNKvlVYuykQ1B6Al4d3t0JqhZMBngKdbDZz/jjb1qoeDs1Mv\r\nLMr4FYLxDSTm8T6TdYdYzNA5/fYXiz2GaoGItAe/1HkdAE1PWO9bzUxarE3Ij4vi\r\n1O06C/vFaZOamFvVbHe1sACNTYa1+CpPek20Yoc8YX2Vd53o6NSKugpytMujOCrn\r\nt1Qw6UuKXLw4IH/yreQ1YpaW2GIY5AkzeGby4Utio1wHBwzxeBiHRTAs5cC7GAI8\r\nf4D5DbHprsuvmMJ5xUkxAA==\r\n-----END PKCS7-----\r\n",
+      "subject":"/CN=dev-chx1bs5l.us.auth0.com"
+    }
+  ],
+  "client_id":"client1",
+  "callback_url_template":false,
+  "client_secret":"<client_secret>",
+  "jwt_configuration":{
+    "lifetime_in_seconds":36000,
+    "secret_encoded":false
+  },
+  "token_endpoint_auth_method":"client_secret_basic",
+  "app_type":"regular_web",
+  "grant_types":[
+    "client_credentials"
+  ],
+  "custom_login_page_on":true
+}

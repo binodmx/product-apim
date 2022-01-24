@@ -1,0 +1,8 @@
+{
+  "id":"1",
+  "client_id":"client1",
+  "audience":"https://localhost:9443",
+  "scope":[
+    "default"
+  ]
+}
